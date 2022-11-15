@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+#review {
+    background: #f9f9f9;
+}
+
+#review h2{
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+
+#review h2 span{
+    color: red;
+}
+
+#review p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#review strong{
+    display: inline-block;
+    color:aqua;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+#review .container{
+    padding: 0% 8%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#review .container img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    margin-top: -70px;
+}
+
+#review .container .box{
+    flex: 1 1 250px;
+    text-align: center;
+    background: #666;
+    padding: 20px;
+    margin: 15px;
+    color: #fff;
+    border: 10px solid #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#review .container .icon span{
+    color: rgb(194, 154, 12);
+    margin: 5px 0;
+}
+
+@media (max-width: 640px) {
+
+}
